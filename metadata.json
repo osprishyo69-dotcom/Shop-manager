@@ -1,0 +1,10 @@
+{
+  "name": "Trust Medicare",
+  "description": "Digitalization platform for Trust Medicare medicine and MFS shop to track cash flow, credit dues, product returns, expenses, voice-to-text dictation, and payment call alarms.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

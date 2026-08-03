@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #0b0c10;
+    --surface: #12141d;
+    --surface-hover: #1a1d29;
+    --ink: #e0e0e6;
+    --accent: #00ffa3;
+    --ink-faint: rgba(224, 224, 230, 0.1);
+    --ink-muted: rgba(224, 224, 230, 0.5);
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, .font-syne {
+    font-family: 'Syne', sans-serif;
+  }
+
+  code, pre, .font-mono, .badge, .label-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.grid-bg {
+  background-image: radial-gradient(circle, rgba(224, 224, 230, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
